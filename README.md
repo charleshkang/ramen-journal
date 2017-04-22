@@ -1,2 +1,2 @@
 # ramen-journal
-an iOS app that shows you ramen shops around you
+an iOS app that shows ramen shops around you
