@@ -13,6 +13,7 @@
 		423B40AC1EAB059A009DA164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423B40AA1EAB059A009DA164 /* LaunchScreen.storyboard */; };
 		423B40B41EAB0917009DA164 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423B40B31EAB0917009DA164 /* HomeViewController.swift */; };
 		423B40B71EAB0A24009DA164 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423B40B61EAB0A24009DA164 /* MapKit.framework */; };
+		423B40BE1EAB1A37009DA164 /* FoursquareAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423B40BD1EAB1A37009DA164 /* FoursquareAPI.swift */; };
 		D62A046E4A238EAD9ECB1C3E /* Pods_Ramen_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EE252424BA683D393B3642 /* Pods_Ramen_Map.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		423B40AD1EAB059A009DA164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		423B40B31EAB0917009DA164 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../HomeViewController.swift; sourceTree = "<group>"; };
 		423B40B61EAB0A24009DA164 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		423B40BD1EAB1A37009DA164 /* FoursquareAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoursquareAPI.swift; path = "Ramen-Map/FoursquareAPI.swift"; sourceTree = SOURCE_ROOT; };
 		84EE252424BA683D393B3642 /* Pods_Ramen_Map.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ramen_Map.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF643B1731308D8D946D0C7 /* Pods-Ramen Map.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ramen Map.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ramen Map/Pods-Ramen Map.release.xcconfig"; sourceTree = "<group>"; };
 		F87ED175EB45FA50533AAA92 /* Pods-Ramen Map.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ramen Map.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ramen Map/Pods-Ramen Map.debug.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 		423B40BC1EAB0B33009DA164 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				423B40BD1EAB1A37009DA164 /* FoursquareAPI.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				423B40A21EAB059A009DA164 /* AppDelegate.swift in Sources */,
+				423B40BE1EAB1A37009DA164 /* FoursquareAPI.swift in Sources */,
 				423B40B41EAB0917009DA164 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
