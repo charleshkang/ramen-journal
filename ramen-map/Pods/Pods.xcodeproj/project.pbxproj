@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03934FD528D4E0E873F1DD1340BD6D41 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34309026629A8F679D817654356A38B /* Photos.swift */; };
+		0BE685638106319ED9112542C4321D94 /* Checkins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096B53C3F787833AC5C0719D3F1F3A37 /* Checkins.swift */; };
+		0C49D5F28265AE0185EA80B03EF0D09C /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3DA090537515A5CFAD5A54E7EC2568 /* Result.swift */; };
+		10D0EE56FF7E24CFC9524941EDFB8A29 /* DataCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910057C1FFCE94D436E6AB5565E0785B /* DataCache.swift */; };
+		12EEC99EFBA4655B72683D14901A5E91 /* Pages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2506A501F3ACFB52A42D50A9699777 /* Pages.swift */; };
+		12F550B5919E0447B7090220C97A9D1D /* Specials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D41C4867600E4B1CE29A9106EA077D /* Specials.swift */; };
+		1A554EF8A50DDB1FACC1720A8638D64B /* NetworkActivityIndicatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F41168C6C868D222C77EBE99A509650 /* NetworkActivityIndicatorController.swift */; };
+		2DF6F2D969255D7E61A6A8A9F8415B7D /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4B821292E24E265EEF4FDAA9A14E31 /* Session.swift */; };
+		31B24D4B48CE8681F8886890E6BA9E8B /* Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFDE4532A36D8248A27AB8516666458 /* Lists.swift */; };
+		35352E09F2937CC3E58B51885E26262E /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B8F46AD905037C946B350C55815F23 /* Settings.swift */; };
+		3E5E88F8F8E7DE26ECACEC663764A263 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AA9769BAF0011C11306AF9A75742D8 /* Foundation.framework */; };
+		425C8D4A15E84A80EA9CDDED40F47DF4 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D78ACF0F64F74E29F0C53D59E6FF0C4 /* Task.swift */; };
+		429B40880832B0B73D96AE94124CA464 /* Venues.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6214B193EA4C8B3C3D3BA7842A1BD42 /* Venues.swift */; };
+		4C76F9536E6C49255EF60DFAAD133CA0 /* NativeTouchAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD77721CE23AB31A4B19F0CD993664AA /* NativeTouchAuthorizer.swift */; };
+		5049221BE6A56223C2458EB73DBDE485 /* OauthErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DDBD715F8AD15E9994F66F6F6C0082 /* OauthErrors.swift */; };
+		570B1D7BC3042D38700AF884148E9144 /* Updates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BA0A5DE55320075411779FDC1D9B71 /* Updates.swift */; };
+		5BD7403A4E7F02DD1336AC6CB5A742AC /* Tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E7D45F8B145F0725F20A14C0368606 /* Tips.swift */; };
+		63652615FB35BBCA9A8A9D8FC858D9F1 /* TouchAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56C8A426B6F505199FF858296B8CC22 /* TouchAuthorizer.swift */; };
+		6706D979349C0DF62949DE47BA7FE79C /* PageUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679E84BDA6F858E0FB1A933359C94BA1 /* PageUpdates.swift */; };
+		67D34CF37EE40AC99BE94603EFD0A2B4 /* HCSStarRatingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6530DFEA5D3CA8663252205687830689 /* HCSStarRatingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74427720BF714CB9165E9EE22039E6CF /* Multi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31F3B3B640C305172B34106CFCFEDCC /* Multi.swift */; };
+		8AA39E730A7DA68CB54B949CE21BD174 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EEE304EB14FBB7582C79EDE054D0A5 /* AuthorizationViewController.swift */; };
+		94D500DB86E589D1EDAB724095796417 /* AuthorizationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB64B1D6844C8B35A3FD15C896355AE /* AuthorizationViewController.xib */; };
+		958C0FC64A1EE00993650298883EB6ED /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18AF7101F750173696D251DC0479B37 /* Keychain.swift */; };
+		9836A8FF7C5FC2585D1D7979BCB65E78 /* Pods-Ramen Map-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47EE728476AD440A9C078FC90AD506EC /* Pods-Ramen Map-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		996165623A9664B5C059FC98EF161ADC /* VenueGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA24AA0548E71617A6EA4866F4A194E /* VenueGroups.swift */; };
+		99F0349E1EB8605D89BAAC5BAD5D3521 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB0751A36C2366E52C22DA60B6B0A6D /* Request.swift */; };
+		9BE72954B85AAD4A11EE9A07ED1C2BC0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092C124E24793E864CDCFFF2EE5ADE28 /* SystemConfiguration.framework */; };
+		9C90C92859024A636EE91D6EEBDDDCFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AA9769BAF0011C11306AF9A75742D8 /* Foundation.framework */; };
+		9CC69F83279B1C73D0B820C29C99B0E4 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849DA0533D9AAECB41A4828EFFA93A5 /* Events.swift */; };
+		A1BA65F156C9B3427648CDB784C43DE1 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2414E076EA926D34E4634DF5984B387B /* Users.swift */; };
+		A25B82DC1E73F5ACBF93651C97FA8FC5 /* QuadratTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = AC10E425D433B46FAFBB3BC9F04EDB5E /* QuadratTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6F5F328FB6CAC3FB020129182DF7058 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF3B18CFD1486B0ACF3CB12B67EEBF1 /* Endpoint.swift */; };
+		AB3ED54E1BC7500BE5CFD562822CB062 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C7FEBB4F3E2EB60F6E0A70EA4132D /* Configuration.swift */; };
+		AD81FCB0F5940DBD4FD045914F6C9472 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B0591CCE1F3A290C8A6E6B8FECC940 /* Logger.swift */; };
+		B0911FEC72026CF2552EE6CC893DE3AF /* Authorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFEC8572B369A423A54820091ACB399 /* Authorization.swift */; };
+		B9D9B75E2B79BBB61FF68CA72EBCAD66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AA9769BAF0011C11306AF9A75742D8 /* Foundation.framework */; };
+		BFE6843E2201CBA81AACB5BFE519E0D6 /* Authorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0CC39AA10BA93225EBAF1C186D6D04 /* Authorizer.swift */; };
+		C8479FC5CEC37379DF55076F9744043D /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A628064BEAD7621D15042B9C6AE57CD2 /* Parameters.swift */; };
+		CEC56FA07B6B2AC76C2793AD2E25483B /* HCSStarRatingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E3BDD6470882AF3B47994E3D74C1F4 /* HCSStarRatingView-dummy.m */; };
+		D6CD7AE9459FB9180B1BB41D1C1D2F4F /* QuadratTouch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CD11F92F123F096B9543791094D1BE /* QuadratTouch-dummy.m */; };
+		D99C61F8B8EE62121DAA0CA028551D9B /* Pods-Ramen Map-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6381F4A94F2B67BA284B8ECE950C14 /* Pods-Ramen Map-dummy.m */; };
+		E456C905FBC55EE412B56D0D175375F9 /* HCSStarRatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = C460EEEC11A30386500F40AD2FAD701C /* HCSStarRatingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB5A062FF543D5E28FB61D53AAE861C1 /* QuadratTouch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 899B1D1E9CDE88F0ACD08C3FF6E25CC5 /* QuadratTouch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5A493266E718EAC3F68314C59A9F0D7 /* HCSStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64904C94C08C03FF7446C7C00791C058 /* HCSStarRatingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34279F1AEB82DAEF48FFA66A4B5E5F43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45FF4A7AFE5D8E17D01023C53AED87FF;
+			remoteInfo = HCSStarRatingView;
+		};
+		7F2198900B629F7F938E8DA539E2696D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9049703EC3997C87BEEF46C422414ABC;
+			remoteInfo = QuadratTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		092C124E24793E864CDCFFF2EE5ADE28 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		096B53C3F787833AC5C0719D3F1F3A37 /* Checkins.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Checkins.swift; path = Source/Shared/Endpoints/Checkins.swift; sourceTree = "<group>"; };
+		0AB0751A36C2366E52C22DA60B6B0A6D /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Shared/Request.swift; sourceTree = "<group>"; };
+		0D8F936226BEEAEB3BB0A2018D8044E8 /* HCSStarRatingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HCSStarRatingView.framework; path = HCSStarRatingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		150408427BB5B378483F1D0409C5318B /* HCSStarRatingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HCSStarRatingView.xcconfig; sourceTree = "<group>"; };
+		1F3DA090537515A5CFAD5A54E7EC2568 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Shared/Result.swift; sourceTree = "<group>"; };
+		1F8F14C051347E2CED9F6FD1CEC67A1A /* Pods-Ramen Map.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Ramen Map.modulemap"; sourceTree = "<group>"; };
+		2414E076EA926D34E4634DF5984B387B /* Users.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Users.swift; path = Source/Shared/Endpoints/Users.swift; sourceTree = "<group>"; };
+		25E7D45F8B145F0725F20A14C0368606 /* Tips.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tips.swift; path = Source/Shared/Endpoints/Tips.swift; sourceTree = "<group>"; };
+		2849DA0533D9AAECB41A4828EFFA93A5 /* Events.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Events.swift; path = Source/Shared/Endpoints/Events.swift; sourceTree = "<group>"; };
+		3BE9AAB4CAEDBED8A16EBC873D5CF01A /* QuadratTouch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = QuadratTouch.modulemap; sourceTree = "<group>"; };
+		40B0591CCE1F3A290C8A6E6B8FECC940 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Source/Shared/Logger.swift; sourceTree = "<group>"; };
+		47AA9769BAF0011C11306AF9A75742D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		47EE728476AD440A9C078FC90AD506EC /* Pods-Ramen Map-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Ramen Map-umbrella.h"; sourceTree = "<group>"; };
+		4A72A9E415902F9FCC25B3EEF8270EC4 /* Pods-Ramen Map.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ramen Map.release.xcconfig"; sourceTree = "<group>"; };
+		4B72EC08048EE5D3C31AB67A5E56C30D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB64B1D6844C8B35A3FD15C896355AE /* AuthorizationViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AuthorizationViewController.xib; path = Source/iOS/AuthorizationViewController.xib; sourceTree = "<group>"; };
+		4CFDE4532A36D8248A27AB8516666458 /* Lists.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lists.swift; path = Source/Shared/Endpoints/Lists.swift; sourceTree = "<group>"; };
+		4D78ACF0F64F74E29F0C53D59E6FF0C4 /* Task.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Task.swift; path = Source/Shared/Task.swift; sourceTree = "<group>"; };
+		5D9C7FEBB4F3E2EB60F6E0A70EA4132D /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Source/Shared/Configuration.swift; sourceTree = "<group>"; };
+		5F41168C6C868D222C77EBE99A509650 /* NetworkActivityIndicatorController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkActivityIndicatorController.swift; path = Source/Shared/NetworkActivityIndicatorController.swift; sourceTree = "<group>"; };
+		62D41C4867600E4B1CE29A9106EA077D /* Specials.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Specials.swift; path = Source/Shared/Endpoints/Specials.swift; sourceTree = "<group>"; };
+		64904C94C08C03FF7446C7C00791C058 /* HCSStarRatingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCSStarRatingView.m; path = HCSStarRatingView/HCSStarRatingView.m; sourceTree = "<group>"; };
+		64CD11F92F123F096B9543791094D1BE /* QuadratTouch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QuadratTouch-dummy.m"; sourceTree = "<group>"; };
+		6530DFEA5D3CA8663252205687830689 /* HCSStarRatingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCSStarRatingView-umbrella.h"; sourceTree = "<group>"; };
+		679E84BDA6F858E0FB1A933359C94BA1 /* PageUpdates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageUpdates.swift; path = Source/Shared/Endpoints/PageUpdates.swift; sourceTree = "<group>"; };
+		72BA0A5DE55320075411779FDC1D9B71 /* Updates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Updates.swift; path = Source/Shared/Endpoints/Updates.swift; sourceTree = "<group>"; };
+		7A0CC39AA10BA93225EBAF1C186D6D04 /* Authorizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Authorizer.swift; path = Source/Shared/Authorizer.swift; sourceTree = "<group>"; };
+		7A2506A501F3ACFB52A42D50A9699777 /* Pages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pages.swift; path = Source/Shared/Endpoints/Pages.swift; sourceTree = "<group>"; };
+		7C2E539ECFD66E1E5932544EA69B6407 /* Pods-Ramen Map.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ramen Map.debug.xcconfig"; sourceTree = "<group>"; };
+		7F92EDB0C3CEA198B35530C53D2BE0A2 /* Pods-Ramen Map-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ramen Map-acknowledgements.markdown"; sourceTree = "<group>"; };
+		87468EED5D511DA889E2914576D3FFC2 /* HCSStarRatingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCSStarRatingView-prefix.pch"; sourceTree = "<group>"; };
+		87A2C34EDCD25766C0DCF181DF5986AB /* Pods_Ramen_Map.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Ramen_Map.framework; path = "Pods-Ramen Map.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B8F46AD905037C946B350C55815F23 /* Settings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Settings.swift; path = Source/Shared/Endpoints/Settings.swift; sourceTree = "<group>"; };
+		899B1D1E9CDE88F0ACD08C3FF6E25CC5 /* QuadratTouch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QuadratTouch-umbrella.h"; sourceTree = "<group>"; };
+		8A6381F4A94F2B67BA284B8ECE950C14 /* Pods-Ramen Map-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ramen Map-dummy.m"; sourceTree = "<group>"; };
+		8BA24AA0548E71617A6EA4866F4A194E /* VenueGroups.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VenueGroups.swift; path = Source/Shared/Endpoints/VenueGroups.swift; sourceTree = "<group>"; };
+		8E28FC06B9705A92DCDC87F97932C414 /* QuadratTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QuadratTouch.framework; path = QuadratTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		910057C1FFCE94D436E6AB5565E0785B /* DataCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataCache.swift; path = Source/Shared/DataCache.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93DDBD715F8AD15E9994F66F6F6C0082 /* OauthErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OauthErrors.swift; path = Source/Shared/OauthErrors.swift; sourceTree = "<group>"; };
+		94E3244D8850C2BCC03BD7C28CCF3701 /* Pods-Ramen Map-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ramen Map-frameworks.sh"; sourceTree = "<group>"; };
+		96583EB93F2964A3CD3D217986A86A88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96EEE304EB14FBB7582C79EDE054D0A5 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthorizationViewController.swift; path = Source/iOS/AuthorizationViewController.swift; sourceTree = "<group>"; };
+		A5E3BDD6470882AF3B47994E3D74C1F4 /* HCSStarRatingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HCSStarRatingView-dummy.m"; sourceTree = "<group>"; };
+		A628064BEAD7621D15042B9C6AE57CD2 /* Parameters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parameters.swift; path = Source/Shared/Parameters.swift; sourceTree = "<group>"; };
+		AC10E425D433B46FAFBB3BC9F04EDB5E /* QuadratTouch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuadratTouch.h; path = Source/QuadratTouch/QuadratTouch.h; sourceTree = "<group>"; };
+		AD77721CE23AB31A4B19F0CD993664AA /* NativeTouchAuthorizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativeTouchAuthorizer.swift; path = Source/iOS/NativeTouchAuthorizer.swift; sourceTree = "<group>"; };
+		B34309026629A8F679D817654356A38B /* Photos.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Photos.swift; path = Source/Shared/Endpoints/Photos.swift; sourceTree = "<group>"; };
+		B56C8A426B6F505199FF858296B8CC22 /* TouchAuthorizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TouchAuthorizer.swift; path = Source/iOS/TouchAuthorizer.swift; sourceTree = "<group>"; };
+		C460EEEC11A30386500F40AD2FAD701C /* HCSStarRatingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCSStarRatingView.h; path = HCSStarRatingView/HCSStarRatingView.h; sourceTree = "<group>"; };
+		C6214B193EA4C8B3C3D3BA7842A1BD42 /* Venues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Venues.swift; path = Source/Shared/Endpoints/Venues.swift; sourceTree = "<group>"; };
+		CCFEC8572B369A423A54820091ACB399 /* Authorization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Authorization.swift; path = Source/iOS/Authorization.swift; sourceTree = "<group>"; };
+		CDF3B18CFD1486B0ACF3CB12B67EEBF1 /* Endpoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Endpoint.swift; path = Source/Shared/Endpoints/Endpoint.swift; sourceTree = "<group>"; };
+		D28CFF4A00D93561B9C946C621D16500 /* QuadratTouch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QuadratTouch-prefix.pch"; sourceTree = "<group>"; };
+		D31F3B3B640C305172B34106CFCFEDCC /* Multi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Multi.swift; path = Source/Shared/Endpoints/Multi.swift; sourceTree = "<group>"; };
+		DA4B764FA77D98BBAFEAA39B85D2D11B /* HCSStarRatingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HCSStarRatingView.modulemap; sourceTree = "<group>"; };
+		DB4B821292E24E265EEF4FDAA9A14E31 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Shared/Session.swift; sourceTree = "<group>"; };
+		EA39E0355D17100C1E0927A3254C5FC0 /* Pods-Ramen Map-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ramen Map-resources.sh"; sourceTree = "<group>"; };
+		EB0FDB9C92A58C19292E1814268B360A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18AF7101F750173696D251DC0479B37 /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Source/Shared/Keychain.swift; sourceTree = "<group>"; };
+		F1FFB46E51DECC64F715021FD4D44702 /* Pods-Ramen Map-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ramen Map-acknowledgements.plist"; sourceTree = "<group>"; };
+		F60643EE0762EFBA3844C3D6301379A6 /* QuadratTouch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QuadratTouch.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBD4A285421A95B155FF739E3EFB9388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D9B75E2B79BBB61FF68CA72EBCAD66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0DF17D60974F08291E4D24DF5743A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C90C92859024A636EE91D6EEBDDDCFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBCDAD9CD6CC113ADD874D9FFE78D7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E5E88F8F8E7DE26ECACEC663764A263 /* Foundation.framework in Frameworks */,
+				9BE72954B85AAD4A11EE9A07ED1C2BC0 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F8F379A68F47C2233DCF945EC6993A5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CB64B1D6844C8B35A3FD15C896355AE /* AuthorizationViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7141F310DB616A7B8460CB145EFEC3A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50FD5D7F48742D7E13A6D1C023A23F3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A922D38E2A00EDDBE0260BA8EA7A17AD /* HCSStarRatingView */,
+				9064A79AB313DCB4E34812EFE4499BA2 /* QuadratTouch */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				50FD5D7F48742D7E13A6D1C023A23F3F /* Pods */,
+				D0A7B9C12F058025B645CB4E2435D89E /* Products */,
+				9A67842877DD697447AE633A0F151B8E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9064A79AB313DCB4E34812EFE4499BA2 /* QuadratTouch */ = {
+			isa = PBXGroup;
+			children = (
+				CCFEC8572B369A423A54820091ACB399 /* Authorization.swift */,
+				96EEE304EB14FBB7582C79EDE054D0A5 /* AuthorizationViewController.swift */,
+				7A0CC39AA10BA93225EBAF1C186D6D04 /* Authorizer.swift */,
+				096B53C3F787833AC5C0719D3F1F3A37 /* Checkins.swift */,
+				5D9C7FEBB4F3E2EB60F6E0A70EA4132D /* Configuration.swift */,
+				910057C1FFCE94D436E6AB5565E0785B /* DataCache.swift */,
+				CDF3B18CFD1486B0ACF3CB12B67EEBF1 /* Endpoint.swift */,
+				2849DA0533D9AAECB41A4828EFFA93A5 /* Events.swift */,
+				F18AF7101F750173696D251DC0479B37 /* Keychain.swift */,
+				4CFDE4532A36D8248A27AB8516666458 /* Lists.swift */,
+				40B0591CCE1F3A290C8A6E6B8FECC940 /* Logger.swift */,
+				D31F3B3B640C305172B34106CFCFEDCC /* Multi.swift */,
+				AD77721CE23AB31A4B19F0CD993664AA /* NativeTouchAuthorizer.swift */,
+				5F41168C6C868D222C77EBE99A509650 /* NetworkActivityIndicatorController.swift */,
+				93DDBD715F8AD15E9994F66F6F6C0082 /* OauthErrors.swift */,
+				7A2506A501F3ACFB52A42D50A9699777 /* Pages.swift */,
+				679E84BDA6F858E0FB1A933359C94BA1 /* PageUpdates.swift */,
+				A628064BEAD7621D15042B9C6AE57CD2 /* Parameters.swift */,
+				B34309026629A8F679D817654356A38B /* Photos.swift */,
+				AC10E425D433B46FAFBB3BC9F04EDB5E /* QuadratTouch.h */,
+				0AB0751A36C2366E52C22DA60B6B0A6D /* Request.swift */,
+				1F3DA090537515A5CFAD5A54E7EC2568 /* Result.swift */,
+				DB4B821292E24E265EEF4FDAA9A14E31 /* Session.swift */,
+				87B8F46AD905037C946B350C55815F23 /* Settings.swift */,
+				62D41C4867600E4B1CE29A9106EA077D /* Specials.swift */,
+				4D78ACF0F64F74E29F0C53D59E6FF0C4 /* Task.swift */,
+				25E7D45F8B145F0725F20A14C0368606 /* Tips.swift */,
+				B56C8A426B6F505199FF858296B8CC22 /* TouchAuthorizer.swift */,
+				72BA0A5DE55320075411779FDC1D9B71 /* Updates.swift */,
+				2414E076EA926D34E4634DF5984B387B /* Users.swift */,
+				8BA24AA0548E71617A6EA4866F4A194E /* VenueGroups.swift */,
+				C6214B193EA4C8B3C3D3BA7842A1BD42 /* Venues.swift */,
+				1F8F379A68F47C2233DCF945EC6993A5 /* Resources */,
+				E68CFC68BCE44FAC746D68276535F2F0 /* Support Files */,
+			);
+			name = QuadratTouch;
+			path = QuadratTouch;
+			sourceTree = "<group>";
+		};
+		9A67842877DD697447AE633A0F151B8E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9620DFE7027F1DD50D77EB4D7EA1786 /* Pods-Ramen Map */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A922D38E2A00EDDBE0260BA8EA7A17AD /* HCSStarRatingView */ = {
+			isa = PBXGroup;
+			children = (
+				C460EEEC11A30386500F40AD2FAD701C /* HCSStarRatingView.h */,
+				64904C94C08C03FF7446C7C00791C058 /* HCSStarRatingView.m */,
+				D270D2F47A60ED6C64283491325F9CBF /* Support Files */,
+			);
+			name = HCSStarRatingView;
+			path = HCSStarRatingView;
+			sourceTree = "<group>";
+		};
+		B7141F310DB616A7B8460CB145EFEC3A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				47AA9769BAF0011C11306AF9A75742D8 /* Foundation.framework */,
+				092C124E24793E864CDCFFF2EE5ADE28 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C9620DFE7027F1DD50D77EB4D7EA1786 /* Pods-Ramen Map */ = {
+			isa = PBXGroup;
+			children = (
+				4B72EC08048EE5D3C31AB67A5E56C30D /* Info.plist */,
+				1F8F14C051347E2CED9F6FD1CEC67A1A /* Pods-Ramen Map.modulemap */,
+				7F92EDB0C3CEA198B35530C53D2BE0A2 /* Pods-Ramen Map-acknowledgements.markdown */,
+				F1FFB46E51DECC64F715021FD4D44702 /* Pods-Ramen Map-acknowledgements.plist */,
+				8A6381F4A94F2B67BA284B8ECE950C14 /* Pods-Ramen Map-dummy.m */,
+				94E3244D8850C2BCC03BD7C28CCF3701 /* Pods-Ramen Map-frameworks.sh */,
+				EA39E0355D17100C1E0927A3254C5FC0 /* Pods-Ramen Map-resources.sh */,
+				47EE728476AD440A9C078FC90AD506EC /* Pods-Ramen Map-umbrella.h */,
+				7C2E539ECFD66E1E5932544EA69B6407 /* Pods-Ramen Map.debug.xcconfig */,
+				4A72A9E415902F9FCC25B3EEF8270EC4 /* Pods-Ramen Map.release.xcconfig */,
+			);
+			name = "Pods-Ramen Map";
+			path = "Target Support Files/Pods-Ramen Map";
+			sourceTree = "<group>";
+		};
+		D0A7B9C12F058025B645CB4E2435D89E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D8F936226BEEAEB3BB0A2018D8044E8 /* HCSStarRatingView.framework */,
+				87A2C34EDCD25766C0DCF181DF5986AB /* Pods_Ramen_Map.framework */,
+				8E28FC06B9705A92DCDC87F97932C414 /* QuadratTouch.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D270D2F47A60ED6C64283491325F9CBF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B764FA77D98BBAFEAA39B85D2D11B /* HCSStarRatingView.modulemap */,
+				150408427BB5B378483F1D0409C5318B /* HCSStarRatingView.xcconfig */,
+				A5E3BDD6470882AF3B47994E3D74C1F4 /* HCSStarRatingView-dummy.m */,
+				87468EED5D511DA889E2914576D3FFC2 /* HCSStarRatingView-prefix.pch */,
+				6530DFEA5D3CA8663252205687830689 /* HCSStarRatingView-umbrella.h */,
+				96583EB93F2964A3CD3D217986A86A88 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HCSStarRatingView";
+			sourceTree = "<group>";
+		};
+		E68CFC68BCE44FAC746D68276535F2F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB0FDB9C92A58C19292E1814268B360A /* Info.plist */,
+				3BE9AAB4CAEDBED8A16EBC873D5CF01A /* QuadratTouch.modulemap */,
+				F60643EE0762EFBA3844C3D6301379A6 /* QuadratTouch.xcconfig */,
+				64CD11F92F123F096B9543791094D1BE /* QuadratTouch-dummy.m */,
+				D28CFF4A00D93561B9C946C621D16500 /* QuadratTouch-prefix.pch */,
+				899B1D1E9CDE88F0ACD08C3FF6E25CC5 /* QuadratTouch-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QuadratTouch";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0033D352713521E39A563ACA55B1B6A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5A062FF543D5E28FB61D53AAE861C1 /* QuadratTouch-umbrella.h in Headers */,
+				A25B82DC1E73F5ACBF93651C97FA8FC5 /* QuadratTouch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0D208839C2B6438DCEAD45BCF5E382 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D34CF37EE40AC99BE94603EFD0A2B4 /* HCSStarRatingView-umbrella.h in Headers */,
+				E456C905FBC55EE412B56D0D175375F9 /* HCSStarRatingView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88ADF4AE444ED1D94FD7F26C1EC08C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9836A8FF7C5FC2585D1D7979BCB65E78 /* Pods-Ramen Map-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		45FF4A7AFE5D8E17D01023C53AED87FF /* HCSStarRatingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD70FC42AAD1801AB60199B569A5CD3 /* Build configuration list for PBXNativeTarget "HCSStarRatingView" */;
+			buildPhases = (
+				46A39D27CF5388CFAEECCC643BAB1C2E /* Sources */,
+				D0DF17D60974F08291E4D24DF5743A50 /* Frameworks */,
+				2D0D208839C2B6438DCEAD45BCF5E382 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HCSStarRatingView;
+			productName = HCSStarRatingView;
+			productReference = 0D8F936226BEEAEB3BB0A2018D8044E8 /* HCSStarRatingView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9049703EC3997C87BEEF46C422414ABC /* QuadratTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB6E94264CA9B770A82E3DE3EEAB0FB /* Build configuration list for PBXNativeTarget "QuadratTouch" */;
+			buildPhases = (
+				FD25F3015336E1368CE2AD03F274292A /* Sources */,
+				EBBCDAD9CD6CC113ADD874D9FFE78D7E /* Frameworks */,
+				0033D352713521E39A563ACA55B1B6A5 /* Headers */,
+				A74A1274FC18B4948F597979853DD398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuadratTouch;
+			productName = QuadratTouch;
+			productReference = 8E28FC06B9705A92DCDC87F97932C414 /* QuadratTouch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AAD84E0B47C960B04E22B1428431B295 /* Pods-Ramen Map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD358D003DA7F1AAC30A578E6E771DB5 /* Build configuration list for PBXNativeTarget "Pods-Ramen Map" */;
+			buildPhases = (
+				0ADEE806A15516AD6A939883A2E5911B /* Sources */,
+				CBD4A285421A95B155FF739E3EFB9388 /* Frameworks */,
+				A88ADF4AE444ED1D94FD7F26C1EC08C2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85191587905FD78F591D8D2ECEA3A5D7 /* PBXTargetDependency */,
+				9680C2FE59EE02EC4D55028D7481D313 /* PBXTargetDependency */,
+			);
+			name = "Pods-Ramen Map";
+			productName = "Pods-Ramen Map";
+			productReference = 87A2C34EDCD25766C0DCF181DF5986AB /* Pods_Ramen_Map.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D0A7B9C12F058025B645CB4E2435D89E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45FF4A7AFE5D8E17D01023C53AED87FF /* HCSStarRatingView */,
+				AAD84E0B47C960B04E22B1428431B295 /* Pods-Ramen Map */,
+				9049703EC3997C87BEEF46C422414ABC /* QuadratTouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A74A1274FC18B4948F597979853DD398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D500DB86E589D1EDAB724095796417 /* AuthorizationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0ADEE806A15516AD6A939883A2E5911B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99C61F8B8EE62121DAA0CA028551D9B /* Pods-Ramen Map-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A39D27CF5388CFAEECCC643BAB1C2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC56FA07B6B2AC76C2793AD2E25483B /* HCSStarRatingView-dummy.m in Sources */,
+				F5A493266E718EAC3F68314C59A9F0D7 /* HCSStarRatingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD25F3015336E1368CE2AD03F274292A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0911FEC72026CF2552EE6CC893DE3AF /* Authorization.swift in Sources */,
+				8AA39E730A7DA68CB54B949CE21BD174 /* AuthorizationViewController.swift in Sources */,
+				BFE6843E2201CBA81AACB5BFE519E0D6 /* Authorizer.swift in Sources */,
+				0BE685638106319ED9112542C4321D94 /* Checkins.swift in Sources */,
+				AB3ED54E1BC7500BE5CFD562822CB062 /* Configuration.swift in Sources */,
+				10D0EE56FF7E24CFC9524941EDFB8A29 /* DataCache.swift in Sources */,
+				A6F5F328FB6CAC3FB020129182DF7058 /* Endpoint.swift in Sources */,
+				9CC69F83279B1C73D0B820C29C99B0E4 /* Events.swift in Sources */,
+				958C0FC64A1EE00993650298883EB6ED /* Keychain.swift in Sources */,
+				31B24D4B48CE8681F8886890E6BA9E8B /* Lists.swift in Sources */,
+				AD81FCB0F5940DBD4FD045914F6C9472 /* Logger.swift in Sources */,
+				74427720BF714CB9165E9EE22039E6CF /* Multi.swift in Sources */,
+				4C76F9536E6C49255EF60DFAAD133CA0 /* NativeTouchAuthorizer.swift in Sources */,
+				1A554EF8A50DDB1FACC1720A8638D64B /* NetworkActivityIndicatorController.swift in Sources */,
+				5049221BE6A56223C2458EB73DBDE485 /* OauthErrors.swift in Sources */,
+				12EEC99EFBA4655B72683D14901A5E91 /* Pages.swift in Sources */,
+				6706D979349C0DF62949DE47BA7FE79C /* PageUpdates.swift in Sources */,
+				C8479FC5CEC37379DF55076F9744043D /* Parameters.swift in Sources */,
+				03934FD528D4E0E873F1DD1340BD6D41 /* Photos.swift in Sources */,
+				D6CD7AE9459FB9180B1BB41D1C1D2F4F /* QuadratTouch-dummy.m in Sources */,
+				99F0349E1EB8605D89BAAC5BAD5D3521 /* Request.swift in Sources */,
+				0C49D5F28265AE0185EA80B03EF0D09C /* Result.swift in Sources */,
+				2DF6F2D969255D7E61A6A8A9F8415B7D /* Session.swift in Sources */,
+				35352E09F2937CC3E58B51885E26262E /* Settings.swift in Sources */,
+				12F550B5919E0447B7090220C97A9D1D /* Specials.swift in Sources */,
+				425C8D4A15E84A80EA9CDDED40F47DF4 /* Task.swift in Sources */,
+				5BD7403A4E7F02DD1336AC6CB5A742AC /* Tips.swift in Sources */,
+				63652615FB35BBCA9A8A9D8FC858D9F1 /* TouchAuthorizer.swift in Sources */,
+				570B1D7BC3042D38700AF884148E9144 /* Updates.swift in Sources */,
+				A1BA65F156C9B3427648CDB784C43DE1 /* Users.swift in Sources */,
+				996165623A9664B5C059FC98EF161ADC /* VenueGroups.swift in Sources */,
+				429B40880832B0B73D96AE94124CA464 /* Venues.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85191587905FD78F591D8D2ECEA3A5D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HCSStarRatingView;
+			target = 45FF4A7AFE5D8E17D01023C53AED87FF /* HCSStarRatingView */;
+			targetProxy = 34279F1AEB82DAEF48FFA66A4B5E5F43 /* PBXContainerItemProxy */;
+		};
+		9680C2FE59EE02EC4D55028D7481D313 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QuadratTouch;
+			target = 9049703EC3997C87BEEF46C422414ABC /* QuadratTouch */;
+			targetProxy = 7F2198900B629F7F938E8DA539E2696D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		230494949FC45BD1B730975A38E1235D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F60643EE0762EFBA3844C3D6301379A6 /* QuadratTouch.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QuadratTouch/QuadratTouch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QuadratTouch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QuadratTouch/QuadratTouch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = QuadratTouch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B8914722FDAC94E95DECDD856DA5CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C2E539ECFD66E1E5932544EA69B6407 /* Pods-Ramen Map.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Ramen Map/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ramen Map/Pods-Ramen Map.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Ramen_Map;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49F9650D1F3DC4D178D35077C1A83E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 150408427BB5B378483F1D0409C5318B /* HCSStarRatingView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HCSStarRatingView/HCSStarRatingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HCSStarRatingView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HCSStarRatingView/HCSStarRatingView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HCSStarRatingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E7DF7679B0187A77DB3C486CB482FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F60643EE0762EFBA3844C3D6301379A6 /* QuadratTouch.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QuadratTouch/QuadratTouch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QuadratTouch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QuadratTouch/QuadratTouch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = QuadratTouch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B55E9EB1767ED7EC18C71A066F747EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A72A9E415902F9FCC25B3EEF8270EC4 /* Pods-Ramen Map.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Ramen Map/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ramen Map/Pods-Ramen Map.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Ramen_Map;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E0F3704C0586636C2FB6A646CEB5DECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 150408427BB5B378483F1D0409C5318B /* HCSStarRatingView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HCSStarRatingView/HCSStarRatingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HCSStarRatingView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HCSStarRatingView/HCSStarRatingView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HCSStarRatingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD70FC42AAD1801AB60199B569A5CD3 /* Build configuration list for PBXNativeTarget "HCSStarRatingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0F3704C0586636C2FB6A646CEB5DECB /* Debug */,
+				49F9650D1F3DC4D178D35077C1A83E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD358D003DA7F1AAC30A578E6E771DB5 /* Build configuration list for PBXNativeTarget "Pods-Ramen Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8914722FDAC94E95DECDD856DA5CB5 /* Debug */,
+				B55E9EB1767ED7EC18C71A066F747EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB6E94264CA9B770A82E3DE3EEAB0FB /* Build configuration list for PBXNativeTarget "QuadratTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230494949FC45BD1B730975A38E1235D /* Debug */,
+				9E7DF7679B0187A77DB3C486CB482FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,15 @@
+PODS:
+  - HCSStarRatingView (1.5)
+  - QuadratTouch (1.1.1)
+
+DEPENDENCIES:
+  - HCSStarRatingView (~> 1.5)
+  - QuadratTouch (>= 1.0)
+
+SPEC CHECKSUMS:
+  HCSStarRatingView: 1d18f79654735514cd6f00e6d90e38cb6320dc31
+  QuadratTouch: 296d83c63a4328f6f40af9fc728fe24f0e3b00d4
+
+PODFILE CHECKSUM: f7908fca398a426f241dbbb57a5f44fa9ffea5e2
+
+COCOAPODS: 1.2.0
